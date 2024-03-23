@@ -13,7 +13,4 @@ class TextNode:
     return False
     
   def __repr__(self) -> str:
-    return f"""Text is: {self.text}
-             Text_type is: {self.text_type}
-             and Url would be: {self.url} 
-             """
+    return f"{self.text}, {self.text_type}, {self.url}"
